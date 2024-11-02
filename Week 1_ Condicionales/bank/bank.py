@@ -1,21 +1,16 @@
 def main():
     prueba = input("Diga? ").casefold().strip()
-    if value(prueba)
-
+    print(f"{value(prueba)}$")
 
 def value(greeting):
-    ...
-
+    x = greeting.startswith("hello")
+    y = greeting.startswith("h")
+    if x == True:
+        return 0
+    elif x == False and y == True:
+         return 20
+    else:
+        return 100
 
 if __name__ == "__main__":
     main()
-
-prueba = input("Diga? ").casefold().strip()
-x = prueba.startswith("hello")
-y = prueba.startswith("h")
-if x == True:
-    print("$0")
-elif x == False and y == True:
-    print("$20")
-else:
-    print("$100")
